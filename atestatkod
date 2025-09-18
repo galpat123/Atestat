@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Foci Története és Alapvető Szabályok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>A Foci Története és Alapvető Szabályai</h1>
+        <nav>
+            <ul>
+                <li><a href="#eredet">Foci Eredete</a></li>
+                <li><a href="#szabalyok">Alapvető Szabályok</a></li>
+                <li><a href="#ligak">Top 5 Futball Liga</a></li>
+                <li><a href="#bajnoksag">Bajnokságok</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="eredet">
+            <h2>A Foci Eredete</h2>
+            <img src="focieredet.jpg" alt="Foci Története" style="width:100%; height:auto;">
+            <p>A labdarúgás, vagy ahogy világszerte ismerik, a foci, a világ egyik legnépszerűbb sportja. Bár a modern értelemben vett foci szabályai Angliából származnak a 19. század közepéről, maga a játék sokkal régebbi gyökerekkel rendelkezik.</p>
+            <p>Már az ókori Kínában is játszottak egy hasonló labdajátékot, amelyet „Cuju”-nak hívtak, és katonai kiképzés részeként is használták. Hasonló játékokat játszottak az ókori Görögországban, Rómában és más kultúrákban is.</p>
+            <p>A modern labdarúgás 1863-ban vált hivatalos sportággá, amikor Angliában megalakult az első futballszövetség, és lefektették a játék egységes szabályait. Ettől kezdve a sport gyorsan elterjedt világszerte, és mára több milliárd rajongót tudhat magáénak.</p>
+            <p>A foci nemcsak egy sport, hanem kulturális és társadalmi jelenség is, amely embereket hoz össze a világ minden tájáról.</p>
+        </section>
+
+        <section id="szabalyok">
+            <h2>Alapvető Szabályok</h2>
+            <img src="Zugloi-SE-focipalya-Ov-utca-foci-sport-Budapest-ne.jpg" alt="Alapvető Szabályok" style="width:100%; height:auto;">
+            <p>A labdarúgás egy 11 fős csapatokkal játszott sport, amelynek célja, hogy a labdát az ellenfél kapujába juttassák. A mérkőzést egy bíró vezeti, aki felügyeli a szabályok betartását.</p>
+            <ul>
+                <li><strong>Játékidő:</strong> Egy mérkőzés 90 percig tart, két 45 perces félidőre osztva.</li>
+                <li><strong>Gól:</strong> Gól akkor születik, ha a labda teljes terjedelmével áthalad a gólvonalon.</li>
+                <li><strong>Les:</strong> Lesállás akkor van, ha az ellenfél a labda elrugasanak pillanataban hatrebb van mint az utolso elotti vedekezo jatekos(az utolso altalaban a kapus).</li>
+                <li><strong>Szabálytalanságok és büntetések:</strong> A bíró szabad- vagy büntetőrúgást ítélhet.</li>
+            </ul>
+        </section>
+
+        <section id="ligak">
+            <h2>Top 5 Futball Liga Európában</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Liga</th>
+                        <th>Híres Csapatok</th>
+                        <th>Jellemző</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>La Liga (Spanyolország)</td>
+                        <td>Real Madrid, Barcelona, Atlético Madrid</td>
+                        <td>Technikás játék, nagy múltú klubok</td>
+                    </tr>
+                    <tr>
+                        <td>Premier League (Anglia)</td>
+                        <td>Manchester United, Chelsea, Arsenal</td>
+                        <td>Fizikai játék, szoros bajnokság</td>
+                    </tr>
+                    <tr>
+                        <td>Serie A (Olaszország)</td>
+                        <td>Juventus, AC Milan, Inter Milan</td>
+                        <td>Taktikus játék, erős védekezés</td>
+                    </tr>
+                    <tr>
+                        <td>Bundesliga (Németország)</td>
+                        <td>Bayern München, Borussia Dortmund</td>
+                        <td>Gyors, támadó foci</td>
+                    </tr>
+                    <tr>
+                        <td>Ligue 1 (Franciaország)</td>
+                        <td>PSG, Olympique Marseille</td>
+                        <td>Fiatal tehetségek, PSG dominanciája</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="bajnoksag">
+            <h2>A Bajnokok Ligája</h2>
+            <img src="https://example.com/champions_league.jpg" alt="Bajnokok Ligája" style="width:100%; height:auto;">
+            <p>A Bajnokok Ligája a legrangosabb európai klubfutball-torna. Története 1955-re nyúlik vissza, amikor még „BEK” néven indult. A legjobb klubcsapatok mérkőznek meg a kontinens bajnoka címért.</p>
+            <a href="https://www.uefa.com/uefachampionsleague/" target="_blank">Bajnokok Ligája hivatalos oldala</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 FociTörténet.hu | Minden jog fenntartva.</p>
+            <p>Ismerje meg a <a href="https://hu.wikipedia.org/wiki/Labdar%C3%BAg%C3%A1s" target="_blank">labdarúgás történelmét</a> a Wikipedia oldalán!</p>
+        </footer>
+    </main>
+</body>
+</html>
+
+// CSS//
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #009900;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #006600;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+section ul {
+    margin-left: 20px;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #006600;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding
