@@ -2,64 +2,228 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <title>Top 5 Futball Liga</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Top 5 Európai Labdarúgó-bajnokság</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+        }
+
+        h2 {
+            color: #222;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .accordion {
+            background-color: #004080;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .accordion:hover, .active {
+            background-color: #0059b3;
+        }
+
+        .panel {
+            padding: 10px 20px;
+            display: none;
+            background-color: #eef3f7;
+            border-left: 4px solid #004080;
+        }
+
+        .league-logo {
+            height: 40px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .league-link {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .league-link img {
+            height: 40px;
+            vertical-align: middle;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .note {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Top 5 Futball Liga Európában</h1>
-        <nav>
-            <ul>
-                <li><a href="elso.html">Főoldal</a></li>
-                <li><a href="masodik.html">Második oldal</a></li>
-                <li><a href="harmadik.html">Harmadik oldal</a></li>
-                <li><a href="negyedik.html">Negyedik oldal</a></li>
-            </ul>
-        </nav>
+        <h1>Top 5 Európai Labdarúgó-bajnokság ⚽</h1>
+        <p class="note">A kontinens legerősebb bajnokságai történettel, sztárokkal és rivalizálásokkal</p>
     </header>
+
+    <nav>
+        <a href="elso.html">Főoldal</a>
+        <a href="masodik.html">Második oldal</a>
+        <a href="harmadik.html">Harmadik oldal</a>
+        <a href="negyedik.html">Negyedik oldal</a>
+    </nav>
+
     <main>
-        <section>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Liga</th>
-                        <th>Híres Csapatok</th>
-                        <th>Jellemző</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>La Liga (Spanyolország)</td>
-                        <td>Real Madrid, Barcelona</td>
-                        <td>Technikás, gyors játék</td>
-                    </tr>
-                    <tr>
-                        <td>Premier League (Anglia)</td>
-                        <td>Manchester City, Liverpool</td>
-                        <td>Erős tempó, sok gól</td>
-                    </tr>
-                    <tr>
-                        <td>Serie A (Olaszország)</td>
-                        <td>Juventus, AC Milan</td>
-                        <td>Taktika és védekezés dominál</td>
-                    </tr>
-                    <tr>
-                        <td>Bundesliga (Németország)</td>
-                        <td>Bayern München, Dortmund</td>
-                        <td>Gyors, támadó stílus</td>
-                    </tr>
-                    <tr>
-                        <td>Ligue 1 (Franciaország)</td>
-                        <td>PSG, Lyon</td>
-                        <td>Fiatal tehetségek, PSG fölény</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>Ez az öt liga számít a legerősebbnek Európában. A csapatok közötti verseny nemcsak a nemzeti címért, de a Bajnokok Ligája szereplésért is zajlik.</p>
-        </section>
+        <h2>Mi is az a „Top 5 Liga”?</h2>
+        <p>A „Top 5” európai bajnokság azokat a nemzeti labdarúgóligákat jelöli, amelyek a legerősebbek játékosminőség, pénzügyek, médiafigyelem és európai kupaeredmények szempontjából.</p>
+
+        <!-- Premier League -->
+        <button class="accordion">
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg" alt="Premier League" class="league-logo">
+            🇬🇧 Premier League (Anglia)
+        </button>
+        <div class="panel">
+            <p><strong>Alapítva:</strong> 1992</p>
+            <p><strong>Híres klubok:</strong> Manchester United, Liverpool, Arsenal, Chelsea, Manchester City</p>
+            <p><strong>Érdekesség:</strong> A világ leggazdagabb ligája, több mint 200 országban sugározzák.</p>
+            <a href="https://www.premierleague.com" target="_blank" class="league-link">
+                🌐 Látogasd meg a Premier League hivatalos oldalát
+            </a>
+        </div>
+
+        <!-- La Liga -->
+        <button class="accordion">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/0e/La_Liga_logo_%282023%29.svg" alt="La Liga" class="league-logo">
+            🇪🇸 La Liga (Spanyolország)
+        </button>
+        <div class="panel">
+            <p><strong>Alapítva:</strong> 1929</p>
+            <p><strong>Híres klubok:</strong> Real Madrid, FC Barcelona, Atlético Madrid</p>
+            <p><strong>Érdekesség:</strong> Messi és Ronaldo párharca itt vált legendássá.</p>
+            <a href="https://www.laliga.com/en-GB" target="_blank" class="league-link">
+                🌐 Látogasd meg a La Liga hivatalos oldalát
+            </a>
+        </div>
+
+        <!-- Serie A -->
+        <button class="accordion">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/Serie_A_logo_%282019%29.svg" alt="Serie A" class="league-logo">
+            🇮🇹 Serie A (Olaszország)
+        </button>
+        <div class="panel">
+            <p><strong>Alapítva:</strong> 1898</p>
+            <p><strong>Híres klubok:</strong> Juventus, AC Milan, Inter Milan</p>
+            <p><strong>Érdekesség:</strong> Az olasz taktikai iskola bölcsője.</p>
+            <a href="https://www.legaseriea.it/en" target="_blank" class="league-link">
+                🌐 Látogasd meg a Serie A hivatalos oldalát
+            </a>
+        </div>
+
+        <!-- Bundesliga -->
+        <button class="accordion">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Bundesliga_logo_%282017%29.svg" alt="Bundesliga" class="league-logo">
+            🇩🇪 Bundesliga (Németország)
+        </button>
+        <div class="panel">
+            <p><strong>Alapítva:</strong> 1963</p>
+            <p><strong>Híres klubok:</strong> Bayern München, Borussia Dortmund, RB Leipzig</p>
+            <p><strong>Érdekesség:</strong> A világ legmagasabb stadionkihasználtsága.</p>
+            <a href="https://www.bundesliga.com/en/" target="_blank" class="league-link">
+                🌐 Látogasd meg a Bundesliga hivatalos oldalát
+            </a>
+        </div>
+
+        <!-- Ligue 1 -->
+        <button class="accordion">
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/c7/Ligue1UberEatsLogo.svg" alt="Ligue 1" class="league-logo">
+            🇫🇷 Ligue 1 (Franciaország)
+        </button>
+        <div class="panel">
+            <p><strong>Alapítva:</strong> 1932</p>
+            <p><strong>Híres klubok:</strong> Paris Saint-Germain, Marseille, Lyon, Monaco</p>
+            <p><strong>Érdekesség:</strong> A PSG uralma mellett a fiatal tehetségek ligájaként is ismert.</p>
+            <a href="https://www.ligue1.com" target="_blank" class="league-link">
+                🌐 Látogasd meg a Ligue 1 hivatalos oldalát
+            </a>
+        </div>
+
+        <!-- Primeira Liga -->
+        <h2>🔥 Feltörekvő liga: Primeira Liga (Portugália)</h2>
+        <p>Nem hivatalosan a „hatodik nagy liga”, amely tehetségneveléséről híres és egyre versenyképesebb az európai
+        <!-- Primeira Liga -->
+        <h2>🔥 Feltörekvő liga: Primeira Liga (Portugália)</h2>
+        <p>Nem hivatalosan a „hatodik nagy liga”, amely tehetségneveléséről híres és egyre versenyképesebb az európai porondon. Itt nevelkedett több világklasszis, mint Cristiano Ronaldo vagy Bernardo Silva.</p>
+        <a href="https://www.ligaportugal.pt/en/homepage/" target="_blank" class="league-link">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Primeira_Liga_logo.svg" alt="Primeira Liga" style="height:40px; vertical-align: middle; margin-right: 8px;">
+            🌐 Látogasd meg a Primeira Liga hivatalos oldalát
+        </a>
+
     </main>
+
     <footer>
-        <p>&copy; 2025 FociTörténet.hu</p>
+        <p>&copy; 2025 FociTörténet.hu | Minden jog fenntartva.</p>
     </footer>
+
+    <script>
+        // Accordion működés
+        const acc = document.getElementsByClassName("accordion");
+        for (let i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                const panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
 </body>
 </html>
