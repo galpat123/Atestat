@@ -5,7 +5,7 @@
     <title>Top 5 Európai Labdarúgó-bajnokság</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            <!-- Labdarúgó-bajnokságok lebonyolítása: Accordion -->
             line-height: 1.6;
             background-color: #f5f5f5;
             margin: 0;
@@ -13,7 +13,7 @@
         }
 
         header {
-            background-color: #222;
+            background-color: #1e8b03;
             color: white;
             padding: 20px;
             text-align: center;
@@ -21,7 +21,7 @@
 
         nav {
             text-align: center;
-            background-color: #333;
+            background-color: #048515;
             padding: 10px 0;
         }
 
@@ -44,7 +44,7 @@
         }
 
         h2 {
-            color: #222;
+            color: #000000;
             border-bottom: 2px solid #ddd;
             padding-bottom: 5px;
         }
@@ -108,7 +108,7 @@
 
     <header>
         <h1>Top 5 Európai Labdarúgó-bajnokság ⚽</h1>
-        <p class="note">A kontinens legerősebb bajnokságai történettel, sztárokkal és rivalizálásokkal</p>
+    
     </header>
 
     <nav>
@@ -119,10 +119,43 @@
     </nav>
 
     <main>
-        <h2>Mi is az a „Top 5 Liga”?</h2>
-        <p>A „Top 5” európai bajnokság azokat a nemzeti labdarúgóligákat jelöli, amelyek a legerősebbek játékosminőség, pénzügyek, médiafigyelem és európai kupaeredmények szempontjából.</p>
+                <h2>Labdarúgó-bajnokságok lebonyolítása</h2>
+                <button class="accordion">🏟️ Alapvető struktúra</button>
+                <div class="panel">
+                    <p>A bajnokságban általában 18–20 csapat szerepel.<br>
+                    Minden csapat kétszer játszik a többiekkel: egyszer otthon, egyszer idegenben.<br>
+                    Ez azt jelenti, hogy egy szezonban 34–38 forduló van, ligától függően.</p>
+                </div>
+                <button class="accordion">🥇 Pontozás</button>
+                <div class="panel">
+                    <p>Győzelem: 3 pont<br>
+                    Döntetlen: 1 pont<br>
+                    Vereség: 0 pont<br>
+                    A szezon végén az a csapat nyeri meg a bajnokságot, amelyik a legtöbb pontot gyűjtötte össze.</p>
+                </div>
+                <button class="accordion">📉 Kiesés és feljutás</button>
+                <div class="panel">
+                    <p>Az utolsó 2–3 helyen végző csapat kiesik az alacsonyabb osztályba.<br>
+                    Helyükre az alsóbb osztály legjobb csapatai feljutnak.<br>
+                    Egyes ligákban osztályozó mérkőzéseket is rendeznek a kiesésről vagy a feljutásról.</p>
+                </div>
+                <button class="accordion">🌍 Nemzetközi kupahelyek</button>
+                <div class="panel">
+                    <p>A bajnokságban elért helyezés alapján a csapatok kvalifikálhatják magukat:<br>
+                    Bajnokok Ligájába (UEFA Champions League)<br>
+                    Európa-ligába (UEFA Europa League)<br>
+                    Konferencialigába (UEFA Conference League)<br>
+                    Az adott ország UEFA-együtthatójától függ, hány csapat indulhat.</p>
+                </div>
+                <button class="accordion">⏱️ Szezon időtartama</button>
+                <div class="panel">
+                    <p>A legtöbb európai bajnokság augusztustól májusig tart.<br>
+                    Nyáron van az átigazolási időszak, amikor a csapatok új játékosokat szerződtethetnek.</p>
+                </div>
+                <h2>Mi is az a „Top 5 Liga”?</h2>
+                <p>A „Top 5” európai bajnokság azokat a nemzeti labdarúgóligákat jelöli, amelyek a legerősebbek játékosminőség, pénzügyek, médiafigyelem és európai kupaeredmények szempontjából.</p>
 
-        <!-- Premier League -->
+      
         <button class="accordion">
             <img src="https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg" alt="Premier League" class="league-logo">
             🇬🇧 Premier League (Anglia)
@@ -136,9 +169,9 @@
             </a>
         </div>
 
-        <!-- La Liga -->
+   
         <button class="accordion">
-            <img src="https://upload.wikimedia.org/wikipedia/en/0/0e/La_Liga_logo_%282023%29.svg" alt="La Liga" class="league-logo">
+            <img src="laliga.jpg" alt="La Liga" class="league-logo">
             🇪🇸 La Liga (Spanyolország)
         </button>
         <div class="panel">
@@ -150,9 +183,9 @@
             </a>
         </div>
 
-        <!-- Serie A -->
+      
         <button class="accordion">
-            <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/Serie_A_logo_%282019%29.svg" alt="Serie A" class="league-logo">
+            <img src="seriea.jpg" alt="Serie A" class="league-logo">
             🇮🇹 Serie A (Olaszország)
         </button>
         <div class="panel">
@@ -164,9 +197,9 @@
             </a>
         </div>
 
-        <!-- Bundesliga -->
+        
         <button class="accordion">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Bundesliga_logo_%282017%29.svg" alt="Bundesliga" class="league-logo">
+            <img src="bundesliga.jpg" alt="Bundesliga" class="league-logo">
             🇩🇪 Bundesliga (Németország)
         </button>
         <div class="panel">
@@ -178,9 +211,9 @@
             </a>
         </div>
 
-        <!-- Ligue 1 -->
+        
         <button class="accordion">
-            <img src="https://upload.wikimedia.org/wikipedia/en/c/c7/Ligue1UberEatsLogo.svg" alt="Ligue 1" class="league-logo">
+            <img src="ligue1.jpg" alt="Ligue 1" class="league-logo">
             🇫🇷 Ligue 1 (Franciaország)
         </button>
         <div class="panel">
@@ -192,16 +225,8 @@
             </a>
         </div>
 
-        <!-- Primeira Liga -->
-        <h2>🔥 Feltörekvő liga: Primeira Liga (Portugália)</h2>
-        <p>Nem hivatalosan a „hatodik nagy liga”, amely tehetségneveléséről híres és egyre versenyképesebb az európai
-        <!-- Primeira Liga -->
-        <h2>🔥 Feltörekvő liga: Primeira Liga (Portugália)</h2>
-        <p>Nem hivatalosan a „hatodik nagy liga”, amely tehetségneveléséről híres és egyre versenyképesebb az európai porondon. Itt nevelkedett több világklasszis, mint Cristiano Ronaldo vagy Bernardo Silva.</p>
-        <a href="https://www.ligaportugal.pt/en/homepage/" target="_blank" class="league-link">
-            <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Primeira_Liga_logo.svg" alt="Primeira Liga" style="height:40px; vertical-align: middle; margin-right: 8px;">
-            🌐 Látogasd meg a Primeira Liga hivatalos oldalát
-        </a>
+        
+     
 
     </main>
 
@@ -210,7 +235,7 @@
     </footer>
 
     <script>
-        // Accordion működés
+       
         const acc = document.getElementsByClassName("accordion");
         for (let i = 0; i < acc.length; i++) {
             acc[i].addEventListener("click", function () {
